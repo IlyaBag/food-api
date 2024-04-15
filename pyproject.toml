@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "for-utf-tech"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Bagrov <ilya.b.only@gmail.com>"]
+readme = "README.md"
+packages = [{include = "for_utf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.4"
+djangorestframework = "^3.15.1"
+django-model-utils = "^4.5.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
