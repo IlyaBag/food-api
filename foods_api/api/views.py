@@ -11,5 +11,5 @@ class FoodCategoriesAPIView(generics.ListAPIView):
     """
     prefetch = Prefetch('food', queryset=Food.objects.filter(is_publish=True))
     queryset = FoodCategory.objects.prefetch_related(prefetch). \
-        filter(food__is_publish=True).distinct()
+        filter(food__is_publish=True).distinct().order_by('id')
     serializer_class = FoodListSerializer
