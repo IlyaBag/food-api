@@ -1,0 +1,190 @@
+[
+    {
+        "model": "api.foodcategory",
+        "pk": 1,
+        "fields": {
+            "created": "2024-08-07T23:46:55Z",
+            "modified": "2024-08-07T23:46:55Z",
+            "name_ru": "Напитки",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 10
+        }
+    },
+    {
+        "model": "api.foodcategory",
+        "pk": 2,
+        "fields": {
+            "created": "2024-08-07T23:47:55Z",
+            "modified": "2024-08-07T23:47:55Z",
+            "name_ru": "Выпечка",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 20
+        }
+    },
+    {
+        "model": "api.foodcategory",
+        "pk": 3,
+        "fields": {
+            "created": "2024-08-07T23:48:55Z",
+            "modified": "2024-08-07T23:48:55Z",
+            "name_ru": "Гарниры",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 30
+        }
+    },
+    {
+        "model": "api.foodcategory",
+        "pk": 4,
+        "fields": {
+            "created": "2024-08-07T23:49:55Z",
+            "modified": "2024-08-07T23:49:55Z",
+            "name_ru": "Салаты",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 40
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 1,
+        "fields": {
+            "created": "2024-08-07T23:48:32Z",
+            "modified": "2024-08-07T23:48:32Z",
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 1,
+            "internal_code": 100,
+            "name_ru": "Чай",
+            "description_ru": "Чай 100 гр",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 2,
+        "fields": {
+            "created": "2024-08-07T23:49:32Z",
+            "modified": "2024-08-07T23:49:32Z",
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 2,
+            "internal_code": 200,
+            "name_ru": "Кола",
+            "description_ru": "Кола",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": false,
+            "additional": []
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 3,
+        "fields": {
+            "created": "2024-08-07T23:50:32Z",
+            "modified": "2024-08-07T23:50:32Z",
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 3,
+            "internal_code": 300,
+            "name_ru": "Спрайт",
+            "description_ru": "Спрайт",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 4,
+        "fields": {
+            "created": "2024-08-07T23:51:32Z",
+            "modified": "2024-08-07T23:51:32Z",
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 4,
+            "internal_code": 400,
+            "name_ru": "Байкал",
+            "description_ru": "Байкал",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 5,
+        "fields": {
+            "created": "2024-08-07T23:52:32Z",
+            "modified": "2024-08-07T23:52:32Z",
+            "category": 2,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 5,
+            "internal_code": 500,
+            "name_ru": "Бублик",
+            "description_ru": "Бублик",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 6,
+        "fields": {
+            "created": "2024-08-07T23:53:32Z",
+            "modified": "2024-08-07T23:53:32Z",
+            "category": 2,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 6,
+            "internal_code": 600,
+            "name_ru": "Торт",
+            "description_ru": "Торт",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": false,
+            "additional": []
+        }
+    },
+    {
+        "model": "api.food",
+        "pk": 7,
+        "fields": {
+            "created": "2024-08-07T23:54:32Z",
+            "modified": "2024-08-07T23:54:32Z",
+            "category": 3,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 7,
+            "internal_code": 700,
+            "name_ru": "Макарошки",
+            "description_ru": "Макарошки",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": false,
+            "additional": []
+        }
+    }
+]
