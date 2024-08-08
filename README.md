@@ -14,6 +14,8 @@
 
 ## Требования
 
+Приложение работает в связке с базой данных PostgreSQL.
+
 Для установки проекта потребуется пакетный менеджер [Poetry](https://python-poetry.org/docs/#installation)
 
 ## Установка
@@ -39,6 +41,23 @@ poetry run python manage.py makemigrations && poetry run python manage.py migrat
 6. Запустить тестовый сервер командой
 ```
 poetry run python manage.py runserver
+```
+
+## Установка с помощью Docker
+
+1. Клонировать репозиторий
+```
+git clone https://github.com/IlyaBag/food-api.git
+```
+2. Создать и заполнить файл с переменными окружения `.env`
+```
+cp .env_example .env
+```
+   - `DEBUG` — режим отладки (`True`/`False`),
+   - `SECRET_KEY` — задаётся произвольно
+3. Запустить сервисы приложения и базы данных командой
+```
+docker compose up
 ```
 
 ## Использование
